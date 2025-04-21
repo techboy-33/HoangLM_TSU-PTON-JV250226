@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Bai 3</title>
+    <style>
+        .btn {
+            font-size: 20px;
+        }
+        .modal_wrap {
+            background-color: #00000043;
+            width: 100%;
+            height: 800px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+        .modal {
+            background-color: #fff;
+            width: 500px;
+            height: 60px;
+            padding: 0 10px;
+            border-radius: 4px;
+            line-height: 56px;
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: calc(50% - 30px);
+            left: calc(50% - 250px);
+        }
+        .close_btn {
+            padding: 10px 0 0 0;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        .open {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Modal Example</h1>
+    <button class="btn">Open Modal</button>
+    <div class="modal_wrap">
+        <div class="modal">
+            Some text in the Modal
+            <i class="fa-solid fa-xmark close_btn"></i>
+        </div>
+    </div>
+    <script src="../Session_17/js/bai3.js"></script>
+</body>
+</html>
