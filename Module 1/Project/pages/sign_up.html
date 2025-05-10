@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <title>Trello Sign Up</title>
+</head>
+
+<body id="sign_up">
+    <section class="sign_in_container">
+        <img class="logo" src="../images/trello-logo.png.png" alt="logo">
+        <span class="sign_mess">Please sign up</span>
+        <form action="" id="form">
+            <input class="input email" type="email" name="email" placeholder="Email address">
+            <input class="input username" type="Username" name="Username" placeholder="Username">
+            <input class="input password" type="password" name="password" placeholder="Password">
+            <p class="click_here_mess">Already have an account,
+                <a href="../pages/sign_in.html">click here !</a>
+            </p>
+            <button class="btn">Sign up</button>
+        </form> 
+        <div class="copy_right">&copy; 2025 - Rikkei Education</div>
+    </section>
+    <div class="mes_area">
+        <div class="error">
+            <div class="error_header">
+                <div class="error_title_wrap">
+                    <i class="fa-solid fa-circle-minus"></i>
+                    <p class="error_title">Error</p>
+                </div>
+                <i class="fa-regular fa-circle-xmark close_btn"></i>
+            </div>
+            <p class="error_mess email">Email không được bỏ trống</p>
+            <p class="error_mess username">Username không được bỏ trống</p>
+            <p class="error_mess password">Mật khẩu không được bỏ trống</p>
+            <p class="error_mess check_email">Email này đã có người đăng kí</p>
+            <pre class="error_mess check_password">
+Mật khẩu không hợp lệ. 
+Mật khẩu phải có tối thiểu 8 kí tự,
+bao gồm cả chữ và số, phải có chữ 
+thường và chữ Hoa.
+            </pre>
+        </div>
+        <div class="success">
+            <div class="success_wrap">
+                <i class="fa-solid fa-circle-check"></i>
+                <p class="error_mess">Đăng kí thành công</p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
