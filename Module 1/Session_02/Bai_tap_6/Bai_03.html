@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 03</title>
+</head>
+<body>
+    <main>
+        <h1>Car Purchase Form</h1>
+        <form action="" method="post">
+            <label for="username">Name:</label>
+            <input type="text" name="username">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+            <br><br>
+            <label for="telephone">Phone:</label>
+            <input type="text" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="012-345-6789">
+            <br><br>
+            <label for="car">Choose a Car:</label>
+            <select name="car" id="car">
+                <option value="model1">Model 1</option>
+                <option value="model1">Model 2</option>
+                <option value="model1">Model 3</option>
+            </select>
+            <br><br>
+            <label for="color">Choose a Color:</label>
+            <select name="color" id="color">
+                <option value="red">Red</option>
+                <option value="white">White</option>
+                <option value="black">Black</option>
+            </select>
+            <br><br>
+            <label for="quantity">Quantity:</label>
+            <input type="number" name="quantity">
+            <br><br>
+            <label for="date">Delivery Date:</label>
+            <input type="date" name="date">
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

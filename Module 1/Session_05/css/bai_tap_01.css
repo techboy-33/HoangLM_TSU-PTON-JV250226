@@ -1,0 +1,9 @@
+button {
+    font-size: 30px;
+    padding: 10px;
+    margin: 50px;
+    border-top: 6px solid red;
+    border-right: 12px dotted #5d00ff;
+    border-bottom: 16px double #008e00;
+    border-left: 22px groove #8e0082;
+}

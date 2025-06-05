@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <title>Trello Sign In</title>
+</head>
+
+<body id="sign_in">
+    <section class="sign_in_container">
+        <img class="logo" src="../images/trello-logo.png.png" alt="logo">
+        <span class="sign_mess">Please sign in</span>
+        <form action="" id="form">
+            <input class="input email" type="email" name="email" placeholder="Email address">
+            <input class="input password" type="password" name="password" placeholder="Password">
+            <input class="checkbox" type="checkbox">
+            <span class="remember">Remember me</span>
+            <p class="click_here_mess">Don't have an account,
+                <a href="../pages/sign_up.html">click here !</a>
+            </p>
+            <button class="btn">Sign in</button>
+        </form>
+        <div class="copy_right">&copy; 2025 - Rikkei Education</div>
+    </section>
+    <div class="mes_area">
+        <div class="error">
+            <div class="error_header">
+                <div class="error_title_wrap">
+                    <i class="fa-solid fa-circle-minus"></i>
+                    <p class="error_title">Error</p>
+                </div>
+                <i class="fa-regular fa-circle-xmark close_btn"></i>
+            </div>
+            <p class="error_mess email">Email không được bỏ trống</p>
+            <p class="error_mess password">Mật khẩu không được bỏ trống</p>
+            <p class="error_mess email_error">Email không tồn tại</p>
+            <p class="error_mess password_error">Mật khẩu không chính xác</p>
+        </div>
+        <div class="success">
+            <div class="success_wrap">
+                <i class="fa-solid fa-circle-check"></i>
+                <p class="error_mess">Đăng nhập thành công</p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

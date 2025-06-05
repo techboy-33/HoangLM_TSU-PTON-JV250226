@@ -1,0 +1,278 @@
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #090707;
+    }
+
+    /* header */
+    .header {
+        justify-content: flex-start;
+        margin: 0;
+    }
+
+    .logo_container {
+        margin: 16px 0 0 8px;
+    }
+
+    .header .right_navbar {
+        display: none;
+    }
+
+    /* main */
+    /* introduce_container */
+    .main .introduce_container {
+        overflow: hidden;
+        margin-top: 64px;
+    }
+
+    .main .introduce_text {
+        width: 100%;
+    }
+
+    .main .introduce_text .introduce_title {
+        font-size: 35px;
+    }
+
+    .main .introduce_text .introduce_mes {
+        font-size: 18px;
+        margin: 25px 13px 32px 13px;
+    }
+
+    .main .introduce_text .introduce_btn_wrap {
+        width: 431px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .introduce_text .get_started_btn {
+        width: 340px;
+    }
+
+    .main .introduce_text .get_featured_btn {
+        width: 340px;
+        margin-top: 19px;
+    }
+
+    .main .introduce_img {
+        width: 385px;
+        height: 348px;
+        margin: 36px auto 0 auto;
+    }
+
+    /* website_ideas */
+    .website_ideas_header_title {
+        margin-top: 71px;
+    }
+
+    .website_ideas_header_text {
+        margin: 15px 0 34px 0;
+    }
+
+    .website_ideas_box {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .website_ideas_box_items {
+        width: 340px;
+        height: 247px;
+    }
+
+    .website_ideas_tool_wrap {
+        width: 340px;
+        height: 387px;
+        margin-top: 20px;
+    }
+
+    .website_ideas_tool_title {
+        padding: 130px 0 0 0;
+        font-size: 24px;
+    }
+
+    .website_ideas_tool_text {
+        padding: 0;
+        font-size: 16px;
+        padding: 7px 0 136px 0;
+    }
+
+    .width_60px_img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .w_logo {
+        top: 60px;
+        left: 27px;
+    }
+
+    .css_5 {
+        top: 274px;
+        left: 22px;
+    }
+
+    .html_5 {
+        top: 323px;
+        left: 103px;
+    }
+
+    .b_logo {
+        top: 80px;
+        left: 127px;
+    }
+
+    .react_js {
+        top: 22px;
+        right: 119px;
+    }
+
+    .js {
+        bottom: 73px;
+        right: 124px;
+    }
+
+    .vue {
+        top: 75px;
+        right: 30px;
+    }
+
+    .python {
+        bottom: 33px;
+        right: 30px;
+    }
+
+    /* featured dev */
+    .featured_dev_container {
+        text-align: center;
+    }
+
+    .featured_dev_title_wrap {
+        width: 100%;
+    }
+
+    .featured_dev_title {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0 0 13px 0;
+        text-align: center;
+        padding-top: 0;
+        border-top: none;
+    }
+
+    .featured_dev_text {
+        font-size: 16px;
+        margin: 0 28px 43px 28px;
+        text-align: center;
+    }
+
+    .featured_dev_info {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .featured_dev_info_items {
+        width: 340px;
+    }
+
+    .featured_dev_btn {
+        margin: 65px auto 51px auto;
+    }
+
+    /* message */
+    .message_container {
+        margin: 0 10px;
+    }
+
+    .message_title {
+        font-size: 26px;
+    }
+
+    .message_text {
+        font-size: 16px;
+        width: 330px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .message_area {
+        flex-direction: column;
+        align-items: center;
+        width: 360px;
+        gap: 13px;
+    }
+
+    .message_items {
+        width: 340px;
+    }
+
+    /* enjoy life area */
+    .enjoy_life_area {
+        width: 381px;
+        height: 429px;
+        background-position: 38% center;
+        background-size: cover;
+        margin: 50px auto 40px auto;
+    }
+
+    .background_color {
+        width: 381px;
+        height: 429px;
+    }
+
+    .enjoy_life_title {
+        font-size: 28px;
+    }
+
+    .enjoy_life_title.one {
+        left: 22px;
+        top: 129px;
+    }
+
+    .enjoy_life_title.two {
+        width: 203px;
+        left: 22px;
+        top: 168px;
+    }
+
+    .enjoy_life_text {
+        width: 192px;
+        font-size: 16px;
+        left: 22px;
+        top: 260px;
+        margin-left: 0;
+    }
+
+    /* do you want */
+    .do_you_want {
+        padding: 40px 0 84px 0;
+        margin: 0;
+        border-bottom: none;
+    }
+
+    .do_you_want_wrap {
+        width: 340px;
+    }
+
+    .do_you_want_title {
+        font-size: 28px;
+        margin: 49px 0 17px 25px;
+    }
+
+    .do_you_want_text {
+        font-size: 16px;
+        line-height: 100%;
+        margin: 0 25px;
+    }
+
+    .do_you_want_btn {
+        margin: 30px 0 33px 25px;
+    }
+
+    /* footer */
+    .footer {
+        display: none;
+    }
+}

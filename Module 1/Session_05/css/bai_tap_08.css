@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    background-color: #fefbf2;
+    border-radius: 50%;
+    border: 16px solid #b06a26;
+    position: relative;
+}
+.circle_small {
+    width: 18px;
+    height: 18px;
+    background-color: #b06a26;
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 7px);
+    left: calc(50% - 7px);
+    z-index: 1;
+}
+.hour_hand {
+    width: 80px;
+    height: 10px;
+    background-color: #000000;
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 40%;
+    left: 45%;
+    border-radius: 8px;
+}
+
+.minute_hand {
+    width: 110px;
+    height: 10px;
+    background-color: #000000;
+    position: absolute;
+    border-radius: 8px;
+    transform: rotate(30deg);
+    top: 59%;
+    left: 46%;
+}

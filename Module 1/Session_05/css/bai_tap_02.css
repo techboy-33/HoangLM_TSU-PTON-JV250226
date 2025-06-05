@@ -1,0 +1,13 @@
+li {
+    background-color: #c1c1c1;
+    color: #f7f5f5;
+    width: 500px;
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 1px;
+}
+li:hover {
+    background-color: #666666;
+    transition: 0.3s;
+}

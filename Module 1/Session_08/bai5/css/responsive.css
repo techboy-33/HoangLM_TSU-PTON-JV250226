@@ -1,0 +1,225 @@
+@media screen and (max-width: 768px) {
+
+    /* header */
+    * {
+        overflow-x: hidden;
+    }
+
+    header {
+        padding: 26px 0;
+    }
+
+    .logo_img {
+        flex: 1;
+        padding-left: 20px;
+    }
+
+    .right_options {
+        flex: 2;
+        gap: 4px;
+    }
+
+    .fa-bell {
+        padding: 4px 12px 4px 6px;
+        border-right: 1px solid #33333328;
+    }
+
+    .user_avatar {
+        padding-left: 4px;
+    }
+
+    .username {
+        display: none;
+    }
+
+    .fa-angle-down.icon {
+        display: none;
+    }
+
+    /* main */
+    main {
+        padding-bottom: 230px;
+    }
+    .confirm_container {
+        width: 100%;
+        margin: 0;
+        position: relative;
+    }
+
+    /* confirm your book */
+    .confirm_your_book {
+        padding: 20px;
+    }
+
+    .folder_tree {
+        display: none;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .your_tour_container {
+        padding-bottom: 290%;
+    }
+
+    .your_tour_title {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .your_tour_item {
+        width: 100%;
+    }
+
+    .creadit_card_img {
+        width: 100%;
+        margin-left: -12px;
+    }
+
+    .cards_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form_card {
+        width: 100%;
+        height: 420px;
+        padding-bottom: 40px;
+    }
+
+    .card_number_container {
+        height: 36%;
+    }
+
+    .confirm_btn {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+
+
+
+    /* booked screen */
+    .booked_screen {
+        position: absolute;
+        top: 16%;
+        margin: 20px;
+        padding: 26px 26px 8px 26px;
+    }
+
+    .booked_name {
+        height: 10%;
+    }
+
+    .reviews_area {
+        height: 4%;
+    }
+
+    .room_style {
+        height: 8%;
+    }
+
+    .check_in_out {
+        height: 10%;
+        justify-content: space-between;
+    }
+
+    .check_item {
+        width: 50%;
+    }
+
+    .check_item.guest {
+        height: 8%;
+    }
+
+    .check_item.out {
+        padding-left: 0;
+        border: none;
+    }
+
+    .booked_details {
+        height: 12%;
+    }
+
+    .booked_details_item {
+        height: 6%;
+    }
+
+    .report {
+        height: 8%;
+    }
+
+    /* get_our_pro_offers */
+    .get_our_pro_offers {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        padding: 26px;
+        border-radius: 22px;
+    }
+
+    .get_our_title_container {
+        width: 100%;
+    }
+
+    .get_our_title {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .get_our_content {
+        font-size: 16px;
+    }
+
+    .get_our_input_container {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .get_our_input {
+        width: 60%;
+    }
+
+    /* footer */
+    footer {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        height: 100%;
+        gap: 0;
+        padding: 50px 40px 40px 40px;
+    }
+
+    .mes_container {
+        height: 110px;
+    }
+
+    .mes_container img {
+        width: 114px;
+    }
+
+    .footer_mes {
+        display: none;
+    }
+
+    .service_container {
+        width: 100%;
+        padding: 20px 0;
+        height: 20%;
+        border-bottom: 2px solid #cecece50;
+    }
+
+    .service_container:nth-child(2) {
+        border: none;
+    }
+
+    .service_item {
+        padding: 5px 0;
+    }
+}

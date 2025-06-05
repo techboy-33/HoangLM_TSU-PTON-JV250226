@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <title>Dashboard</title>
+</head>
+
+<body id="dashboard">
+    <section class="navbar">
+        <div class="logo_wrap">
+            <img src="../images/trello-logo-full.png.png" alt="trello-logo">
+        </div>
+    </section>
+    <div class="dashboard_container">
+        <section id="sidebar" class="sidebar">
+            <p class="your_dashboard">YOUR DASHBOARD</p>
+            <div class="your_dashboard_item">
+                <i class="fa-solid fa-list"></i>
+                <a href="" class="your_dashboard_name">User dashboard</a>
+            </div>
+            <div class="your_dashboard_item">
+                <i class="fa-regular fa-star"></i>
+                <a href="" class="your_dashboard_name add_new_user">Add new user</a>
+            </div>
+            <div class="your_dashboard_item">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <a href="" class="your_dashboard_name logout_btn">Sign out</a>
+            </div>
+        </section>
+        <section id="user_management" class="user_management">
+            <div class="your_dashboard_item">
+                <i class="fa-solid fa-list"></i>
+                <p class="your_dashboard_name">User dashboard</p>
+            </div>
+            <div id="user_list" class="user_list">
+                <div class="search_area">
+                    <input class="search_input" type="text" placeholder="Search user by name">
+                    <i class="fa-solid fa-magnifying-glass search_button"></i>
+                </div>
+                <table id="table" class="table">
+                    <thead>
+                        <tr class="title_row">
+                            <th>User code</th>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>Birthday</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="user_table_body">
+                        
+                    </tbody>
+                </table>
+                <div id="pagination" class="pagination">
+                    <h1>phân trang ở đây</h1>
+                </div>
+            </div>
+            <form id="edit_user" class="">
+                <h1 class="page_name">Edit user</h1>
+                <div class="input_head_container">
+                    <div class="input_item">
+                        <p class="title_name">User code</p>
+                        <input type="text">
+                    </div>
+                    <div class="input_item">
+                        <p class="title_name">Username</p>
+                        <input type="text" name="userName">
+                    </div>
+                    <div class="input_item">
+                        <p class="title_name">Email</p>
+                        <input type="email" name="email">
+                    </div>
+                    <div class="input_item">
+                        <p class="title_name">Password</p>
+                        <input type="text" name="password">
+                    </div>
+                </div>
+                <div class="input_body_container">
+                    <div class="input_item">
+                        <p class="title_name">Role</p>
+                        <select name="role">
+                            <option value="USER">User</option>
+                            <option value="ADMIN">Admin</option>
+                        </select>
+                    </div>
+                    <div class="input_item">
+                        <p class="title_name">Birthday</p>
+                        <input type="date" name="birthday">
+                    </div>
+                    <div class="input_item status">
+                        <p class="title_name">Status</p>
+                        <div class="status_wrap">
+                            <div class="radio_wrap">
+                                <input type="radio" name="status" value="active">
+                                <span>Active</span>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="status" value="deactivate">
+                                <span>Deactivate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="input_item description">
+                    <p class="title_name">Description</p>
+                    <textarea type="text"></textarea>
+                </div>
+                <div class="button_wrap">
+                    <button class="back_btn">Back</button>
+                    <button class="save_btn">Save</button>
+                </div>
+            </form>
+            <form id="add_new_user" class="">
+                <h1 class="page_name">Add new user</h1>
+                <div class="input_head_container">
+                    <div class="input_item">
+                        <p class="title_name">User code</p>
+                        <input type="text">
+                    </div>
+                    <div class="input_item">
+                        <p class="title_name">Username</p>
+                        <input type="text" name="username">
+                    </div>
+                    <div class="input_item">
+                        <p class="title_name">Email</p>
+                        <input type="email" name="email">
+                    </div>
+                    <div class="input_item">
+                        <p class="title_name">Password</p>
+                        <input type="text" name="password">
+                    </div>
+                </div>
+                <div class="input_body_container">
+                    <div class="input_item">
+                        <p class="title_name">Role</p>
+                        <select name="role">
+                            <option value="USER">User</option>
+                            <option value="ADMIN">Admin</option>
+                        </select>
+                    </div>
+                    <div class="input_item">
+                        <p class="title_name">Birthday</p>
+                        <input type="date" name="birthday">
+                    </div>
+                    <div class="input_item status">
+                        <p class="title_name">Status</p>
+                        <div class="status_wrap">
+                            <div class="radio_wrap">
+                                <input type="radio" name="status" value="active">
+                                <span>Active</span>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="status" value="deactivate">
+                                <span>Deactivate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="input_item description">
+                    <p class="title_name">Description</p>
+                    <textarea type="text"></textarea>
+                </div>
+                <div class="button_wrap">
+                    <button class="back_btn">Back</button>
+                    <button class="save_btn">Add +</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <div class="mes_area">
+        <div class="error">
+            <div class="error_header">
+                <div class="error_title_wrap">
+                    <i class="fa-solid fa-circle-minus"></i>
+                    <p class="error_title">Error</p>
+                </div>
+                <i class="fa-regular fa-circle-xmark close_btn"></i>
+            </div>
+            <p class="error_mess email">Email không được bỏ trống</p>
+            <p class="error_mess username">Username không được bỏ trống</p>
+            <p class="error_mess password">Mật khẩu không được bỏ trống</p>
+            <p class="error_mess check_email">Email này đã có người đăng kí</p>
+            <pre class="error_mess check_password">
+Mật khẩu không hợp lệ. 
+Mật khẩu phải có tối thiểu 8 kí tự,
+bao gồm cả chữ và số, phải có chữ 
+thường và chữ Hoa.
+            </pre>
+        </div>
+        <div class="success">
+            <div class="success_wrap">
+                <i class="fa-solid fa-circle-check"></i>
+                <p class="error_mess">Đăng kí thành công</p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
