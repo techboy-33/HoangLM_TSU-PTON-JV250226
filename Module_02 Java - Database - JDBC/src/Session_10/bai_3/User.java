@@ -1,4 +1,4 @@
-package Session_11.bai_3;
+package Session_10.bai_3;
 
 public class User {
     private String name;
