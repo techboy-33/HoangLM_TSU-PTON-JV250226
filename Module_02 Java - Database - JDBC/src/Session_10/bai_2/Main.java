@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        BookManagement management = new BookManagement();
         do {
             System.out.println("************** MENU QUẢN LÝ SÁCH *************");
             System.out.println("1. Thêm sách");
@@ -20,11 +21,20 @@ public class Main {
                     String author = InputData.getString(scanner, "Nhập tên tác giả: ");
                     int year = InputData.getInt(scanner, "Nhập năm xuất bản: ");
                     Book book = new Book(name, author, year);
-//                    BookManagement.addBook(book);
+                    management.addBook(book);
                     break;
                 case 2:
+                    String searchInput = InputData.getString(scanner, "Nhập tên sách để tìm kiếm: ");
+                    try {
+                        Book searchBook = management.searchBook(searchInput);
+                        System.out.println("Thông tin sách : " + searchBook);
+                    } catch (Exception e) {
+                        System.out.println(e.getMessage());
+                    }
                     break;
                 case 3:
+                    System.out.println("Danh sách : ");
+                    management.displayData();
                     break;
                 case 4:
                     System.exit(0);
