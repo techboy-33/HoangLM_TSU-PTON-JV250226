@@ -24,6 +24,7 @@ import java.util.Properties;
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = {"ra.com.exam_webapp.controller","ra.com.exam_webapp.service.imp","ra.com.exam_webapp.repository.imp"})
+@EnableTransactionManagement
 public class AppConfig {
     @Bean
     public ViewResolver viewResolver() {
@@ -76,3 +77,4 @@ public class AppConfig {
         return transactionManager;
     }
 }
+
