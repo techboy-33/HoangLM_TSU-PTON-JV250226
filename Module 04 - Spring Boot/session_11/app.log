@@ -1,0 +1,6 @@
+2025-09-04 07:04:12 - Add product successful
+2025-09-04 07:14:36 - Product before update: Product(id=10, productName=Bánh Tinamisu, price=75000.0, stock=26, image=http://res.cloudinary.com/dg10ca49n/image/upload/v1756908538/gcgkp2znulgokdcz2nva.jpg)
+2025-09-04 07:14:36 - Product after update: Product(id=10, productName=Bánh Tinamisu Ngon, price=55000.0, stock=15, image=http://res.cloudinary.com/dg10ca49n/image/upload/v1756908538/gcgkp2znulgokdcz2nva.jpg)
+2025-09-04 07:16:46 - Delete product successful
+2025-09-04 07:25:40 - Search Product :bánh
+2025-09-04 07:25:40 - Find all and search products successful : 2 product !
